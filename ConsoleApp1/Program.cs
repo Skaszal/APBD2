@@ -10,13 +10,13 @@ Console.WriteLine(GetAvg(arr));
 
 static double GetAvg(int[] arr)
 {
-    int sum = 0;
+    int klekle = 0;
     foreach (var num in arr)
     {
-        sum += num;
+        klekle += num;
     }
-
-    return (double)sum / arr.Length;
+    
+    return (double)klekle / arr.Length;
 }
 static  int GetMax(int[] arr){
     int max = arr[0];
