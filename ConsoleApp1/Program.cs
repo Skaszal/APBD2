@@ -18,3 +18,12 @@ static double GetAvg(int[] arr)
 
     return (double)sum / arr.Length;
 }
+static  int GetMax(int[] arr){
+    int max = arr[0];
+    foreach (var num in arr){
+        if  (num > max){
+            max = num;
+        }
+    }
+    return num;
+}
